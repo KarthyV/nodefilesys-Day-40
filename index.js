@@ -37,5 +37,5 @@ app.post("/time", (req, res) => {
 });
 
 app.listen(process.env.PORT, () =>
-  console.log("Server listening on port 5000")
+  console.log(`Server listening on port ${process.env.PORT}`)
 );
